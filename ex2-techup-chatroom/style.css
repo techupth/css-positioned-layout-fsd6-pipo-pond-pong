@@ -1,1 +1,70 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-1: rgb(109, 109, 109);
+    --color-2: greenyellow;
+}
+
+header {
+  display: flex;
+  padding-left: 10px;
+  background-color: var(--color-1);
+  font-size: 32px;
+  height: 50px;
+  color: white;
+  align-items: center;
+  
+}
+
+.right-chat{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.left-chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.chat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--color-2);
+    width: 200px;
+    height: 40px;
+    margin: 10px 10px 0 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.l-chat {
+    background-color: var(--color-1);
+}
+
+.r-chat {
+    background-color: rgb(204, 201, 201);
+}
+
+.del-chat {
+    text-align: center;
+    background-color: rgb(104, 103, 103);
+    font-size: 12px;
+    border-radius: 20px;
+    width: 15px;
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    right: 12px;
+}
+
+

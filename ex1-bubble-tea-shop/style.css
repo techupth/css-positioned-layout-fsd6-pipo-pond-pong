@@ -1,5 +1,42 @@
 body {
   font-family: "Kanit";
+  background-color: black;
 }
 
-/* Start coding here */
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 10px;
+  position: absolute;
+  top: 300px;
+  border: 10px solid white;
+}
+
+.info-1 {
+  position: absolute;
+  top: 570px;
+  left: 650px;
+  color: white;
+  font-size: x-large;
+}
+
+.info-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 320px;
+  left: 1160px;
+  font-size: 25px;
+  color: white;
+}
