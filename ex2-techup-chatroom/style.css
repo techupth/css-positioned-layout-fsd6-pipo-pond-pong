@@ -1,1 +1,72 @@
-/* Start coding here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: gray;
+  padding: 10px;
+}
+
+.chat-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.chatbox-1,
+.chatbox-2,
+.chatbox-3,
+.chatbox-4,
+.chatbox-5 {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.chatbox-1 {
+  background-color: limegreen;
+  position: absolute;
+  left: 1700px;
+}
+
+.chatbox-2 {
+  background-color: gainsboro;
+  position: absolute;
+  left: 1700px;
+  top: 50px;
+}
+
+.chatbox-3 {
+  background-color: limegreen;
+  position: absolute;
+  left: 1700px;
+  top: 100px;
+}
+
+.chatbox-4 {
+  background-color: gray;
+  position: absolute;
+  top: 150px;
+}
+
+.chatbox-5 {
+  background-color: gray;
+  position: absolute;
+  top: 200px;
+}
+
+.close {
+  background-color: gray;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 1900px;
+  top: 50px;
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+  border-radius: 50%;
+}
