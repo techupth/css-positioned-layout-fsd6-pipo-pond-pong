@@ -19,6 +19,17 @@ img {
   border: 10px solid white;
 }
 
+.shadow {
+  position: absolute;
+  background: rgba(0,0,0,0.1);
+  box-shadow: -3px -86px 96px -25px rgba(0,0,0,1) inset;
+  -webkit-box-shadow: -3px -86px 96px -25px rgba(0,0,0,1) inset;
+  -moz-box-shadow: -3px -86px 96px -25px rgba(0,0,0,1) inset;
+  top: 300px;
+  width: 644px;
+  height: 326px;
+}
+
 .info-1 {
   position: absolute;
   top: 570px;
